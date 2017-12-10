@@ -25,14 +25,12 @@ public class History extends JPanel
     public History() throws IOException, URISyntaxException
     {
         String s = l.switchSlash();
-        s = s.substring(0, 45);
+        int x = s.indexOf("bin");
+        s = s.substring(0,x-1);  
         Color news = Color.decode("#73a1a2");
         setBackground(news);
         ImageIcon imageIcon = new ImageIcon(s + "/photos/mainhistory.jpg");
         JLabel label = new JLabel(imageIcon);
         add(label);
-    }
-    public static void main(String[] args) throws IOException, URISyntaxException {
-    	JPanel p = new History();
     }
 }

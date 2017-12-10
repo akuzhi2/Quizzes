@@ -25,7 +25,8 @@ public class WhaleShark extends JPanel
     public WhaleShark() throws IOException, URISyntaxException
     {
         String s = l.switchSlash();
-        
+        int x = s.indexOf("bin");
+        s = s.substring(0,x-1);
         ImageIcon imageIcon = new ImageIcon(s + "/photos/whaleshark.jpg");
         JLabel label = new JLabel(imageIcon);
         add(label);
