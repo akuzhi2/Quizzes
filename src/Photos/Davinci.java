@@ -22,7 +22,8 @@ public class Davinci extends JPanel
     public Davinci() throws IOException, URISyntaxException
     {
         String s = l.switchSlash();
-        s = s.substring(0, 45);
+        int x = s.indexOf("bin");
+        s = s.substring(0,x-1);
         Color news = Color.decode("#73a1a2");
         setBackground(news);
         ImageIcon imageIcon = new ImageIcon(s + "/photos/Davinci.jpg");
