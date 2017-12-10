@@ -25,11 +25,15 @@ public class Hobbes extends JPanel
     public Hobbes() throws IOException, URISyntaxException
     {
         String s = l.switchSlash();
+        System.out.println(s);
         s = s.substring(0, 45);
         Color news = Color.decode("#73a1a2");
         setBackground(news);
         ImageIcon imageIcon = new ImageIcon(s + "/photos/hobbs.jpeg");
         JLabel label = new JLabel(imageIcon);
         add(label);
+    }
+    public static void main(String[] args) throws IOException, URISyntaxException {
+    	Hobbes s = new Hobbes();
     }
 }
