@@ -27,7 +27,7 @@ public class QuizList {
 		String[] arr = {"Reason", "Emotion"};
 		historical.put("How do you most often make decisions?", arr);
 		String[] arr2 = {"Very skilled at many things", "Expert at one thing"};
-		historical.put("<br>Would you rather be very skilled at many things<br> or an expert one thing?", arr2);
+		historical.put("<br>Would you rather be very skilled at many things<br> or an expert at one thing?", arr2);
 		String[] arr3 = {"Ambition", "Determination", "Courage", "Intelligence", "Creativity"};
 		historical.put("<br>What do you believe is most key to success?", arr3);
 		String[] arr4 = {"Honesty", "Kindness", "Caring", "Tenacity"};
