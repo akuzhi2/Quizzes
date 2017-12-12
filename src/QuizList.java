@@ -37,7 +37,7 @@ public class QuizList {
 		String[] arr6 = {"Something new", "Progress on already discovered topic"};
 		historical.put("<br>Would you rather discover something new <br>or make major progress on a discovered topic?", arr6);
 		String[] arr7 = {"Leader", "Follower"};
-		historical.put("<br>Do unconditionally follow authority,<br> or do you believe that there are exceptions?", arr7);
+		historical.put("<br>Do you unconditionally follow authority,<br> or do you believe that there are exceptions?", arr7);
 		String[] shark1 = {"Relaxing on a beach in Hawaii", "Skiing in Colorado","Strolling through cornfields in Illinois", "Sightseeing in London"};
 		shark.put("What vacation activity sounds most appealing?", shark1);
 		String[] shark2 = {"White", "Grey", "Blue", "Brown", "Green"};
